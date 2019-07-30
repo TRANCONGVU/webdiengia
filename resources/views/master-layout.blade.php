@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="lib/banner-slider/engine1/style.css" />
     <!-- End WOWSlider.com HEAD section -->
     <link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/styte.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
