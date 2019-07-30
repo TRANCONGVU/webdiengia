@@ -12,7 +12,7 @@
 				<ul class="nav-ul-lv-1">
                         <li><a href="#">Trang chủ</a></li>
                         <li>
-							<a href="#">Giới thiệu</a>
+							<a href="{{ url('gioi-thieu') }}">Giới thiệu</a>
 
                         </li>
                        <li>
@@ -34,8 +34,8 @@
 								</li>
 							</ul>
                         </li>
-                        <li class="lienhe-led"><a href="#">liên hệ</a></li>
-                        <li class="lienhe-led"><a href="#">Quà tặng</a></li>
+                        <li class="lienhe-led"><a href="{{ route('lien-he') }}">liên hệ</a></li>
+                        <li class="lienhe-led"><a href="{{ route('qua-tang') }}">Quà tặng</a></li>
 					</ul>
 				<div class="menu-mobile-button"><i class="fas fa-bars"></i></div>
 			</div>
@@ -75,8 +75,8 @@
 							</ul>
                         </li>
                         <li><a href="#">Khóa Học</a></li>
-                        <li><a href="#">Liên Hệ</a></li>
-                        <li><a href="#">Qùa tặng</a></li>
+                        <li><a href="{{ route('lien-he') }}">liên hệ</a></li>
+                        <li><a href="{{ route('qua-tang') }}">Quà tặng</a></li>
 
 					</ul>
 
