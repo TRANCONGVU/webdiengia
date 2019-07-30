@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('pages.trang-chu');
 });
+Route::get('/gioi-thieu', function () {
+    return view('pages.gioi-thieu');
+});
 
 Route::get('trang-chu', [
 	'as' =>'pages.trang-chu',
@@ -28,9 +31,4 @@ Route::get('tintuc', [
 Route::get('chitiettintuc', [
 	'as' =>'chitiettintuc',
 	'uses' => 'Controller_1@get_chitiettintuc'
-]);
-
-Route::get('gioithieu', [
-	'as' =>'gioithieu',
-	'uses' => 'Controller_1@get_gioithieu'
 ]);

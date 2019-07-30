@@ -2,6 +2,7 @@
 @section('content')
 
 <link rel="stylesheet" type="text/css" href="css/home.css">
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script type="text/javascript" src="js/home.js"></script>
 <script src="https://kit.fontawesome.com/40e36cd30a.js"></script>
 
@@ -19,60 +20,58 @@
 				Kết nối với Mr Coach
 			</div>
 			<div class="h-banner-bottom-text">
-				<ul>
-					<li>
-						<a href="">
-							<div class="h-banner-bottom-text-member">
-								<div>
-									<i class="fas fa-envelope"></i>
-								</div>
-								<div>
-									<span class="h-banner-bottom-text-member-number">50.688</span>
-									<br>Subscribers
-								</div>
+				<div>
+					<a href="">
+						<div class="h-banner-bottom-text-member">
+							<div>
+								<i class="fas fa-envelope"></i>
 							</div>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<div class="h-banner-bottom-text-member">
-								<div>
-									<i class="fab fa-facebook-f"></i>
-								</div>
-								<div>
-									<span class="h-banner-bottom-text-member-number">6.799</span>
-									<br>Fans
-								</div>
+							<div>
+								<span class="h-banner-bottom-text-member-number">50.688</span>
+								<br>Subscribers
 							</div>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<div class="h-banner-bottom-text-member">
-								<div>
-									<i class="fab fa-google-plus-g"></i>
-								</div>
-								<div>
-									<span class="h-banner-bottom-text-member-number">539</span>
-									<br>Followers
-								</div>
+						</div>
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<div class="h-banner-bottom-text-member">
+							<div>
+								<i class="fab fa-facebook-f"></i>
 							</div>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<div class="h-banner-bottom-text-member">
-								<div>
-									<i class="fab fa-youtube"></i>
-								</div>
-								<div>
-									<span class="h-banner-bottom-text-member-number">2,603</span>
-									<br>Viewers
-								</div>
+							<div>
+								<span class="h-banner-bottom-text-member-number">6.799</span>
+								<br>Fans
 							</div>
-						</a>
-					</li>
-				</ul>
+						</div>
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<div class="h-banner-bottom-text-member">
+							<div>
+								<i class="fab fa-google-plus-g"></i>
+							</div>
+							<div>
+								<span class="h-banner-bottom-text-member-number">539</span>
+								<br>Followers
+							</div>
+						</div>
+					</a>
+				</div>
+				<div>
+					<a href="">
+						<div class="h-banner-bottom-text-member">
+							<div>
+								<i class="fab fa-youtube"></i>
+							</div>
+							<div>
+								<span class="h-banner-bottom-text-member-number">2,603</span>
+								<br>Viewers
+							</div>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -85,7 +84,7 @@
 				<div class="col-md-4 col-sm-6 text-center offset-md-2">
 					<div class="h-category-member">
 						<div class="h-category-member-img">
-							<img src="https://lh3.googleusercontent.com/-CAo5KQxsijs/VkRryavH6LI/AAAAAAAAACk/dl6EqJUfQOo/s75-Ic42/icon-personal.jpg">
+							<img src="images/icon-personal.jpg">
 						</div>
 						<div class="h-category-member-title text-center">
 							Tư duy làm giàu
@@ -101,7 +100,7 @@
 				<div class="col-md-4 col-sm-6 text-center">
 					<div class="h-category-member">
 						<div class="h-category-member-img">
-							<img src="https://lh3.googleusercontent.com/-Lyaeg3tzqoY/VkRryrrCYkI/AAAAAAAAACw/W00YQ8HCUFc/s75-Ic42/icon-sales.jpg">
+							<img src="images/icon-sales.jpg">
 						</div>
 						<div class="h-category-member-title text-center">
 							Kỹ năng bán hàng
@@ -117,7 +116,7 @@
 				<div class="col-md-4 col-sm-6 text-center">
 					<div class="h-category-member">
 						<div class="h-category-member-img">
-							<img src="https://lh3.googleusercontent.com/-jIH0q2Vef6Q/VkRrx0lg5rI/AAAAAAAAADU/CsTC5At_fi4/s102-Ic42/icon-business.jpg">
+							<img src="images/icon-business.jpg">
 						</div>
 						<div class="h-category-member-title text-center">
 							Phát triển kinh doanh
@@ -133,7 +132,7 @@
 				<div class="col-md-4 col-sm-6 text-center">
 					<div class="h-category-member">
 						<div class="h-category-member-img">
-							<img src="https://lh3.googleusercontent.com/-79IHSdOFIZ8/VkRrycsFz5I/AAAAAAAAAC8/4hW9rPU8k3c/s75-Ic42/icon-leadership.jpg">
+							<img src="images/icon-leadership.jpg">
 						</div>
 						<div class="h-category-member-title text-center">
 							Kỹ năng lãnh đạo
@@ -149,7 +148,7 @@
 				<div class="col-md-4 col-sm-6 text-center">
 					<div class="h-category-member">
 						<div class="h-category-member-img">
-							<img src="https://lh3.googleusercontent.com/-J-tKSln34Lo/VkRryr4Fx8I/AAAAAAAAAC0/JMFZrtBRwdo/s75-Ic42/icon-speaking.jpg">
+							<img src="images/icon-speaking.jpg">
 						</div>
 						<div class="h-category-member-title text-center">
 							Thuyết trình trên sân khấu
@@ -171,12 +170,12 @@
 				Bài viết gần đây
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="h-blog-member">
 						<a href="">
 							<div>
 								<div class="h-blog-member-img">
-									<img src="http://phamngocanh.com/wp-content/uploads/2019/07/ông-tôi-2.jpg" class="img-fluid">
+									<img src="images/ông-tôi-2.jpg" class="img-fluid">
 								</div>
 								<div class="h-blog-member-content">
 									Ông tôi kể chuyện rất hay (P.2): Nhớ mãi kỉ niệm cháu dẫn bạn gái về ‘ra mắt’ ông
@@ -185,12 +184,12 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="h-blog-member">
 						<a href="">
 							<div>
 								<div class="h-blog-member-img">
-									<img src="http://phamngocanh.com/wp-content/uploads/2019/07/ông-tôi-2.jpg" class="img-fluid">
+									<img src="images/ông-tôi-2.jpg" class="img-fluid">
 								</div>
 								<div class="h-blog-member-content">
 									Ông tôi kể chuyện rất hay (P.3): Nhớ mãi kỉ niệm cháu dẫn bạn gái về ‘ra mắt’ ông
@@ -199,12 +198,12 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="h-blog-member">
 						<a href="">
 							<div>
 								<div class="h-blog-member-img">
-									<img src="http://phamngocanh.com/wp-content/uploads/2019/07/1-12.jpg" class="img-fluid">
+									<img src="images/1-12.jpg" class="img-fluid">
 								</div>
 								<div class="h-blog-member-content">
 									Làm quản lý đừng ngại khắt khe, bởi đó chính là liều thuốc để “nhào nặn” nên nhân viên giỏi
@@ -213,12 +212,12 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="h-blog-member">
 						<a href="">
 							<div>
 								<div class="h-blog-member-img">
-									<img src="http://phamngocanh.com/wp-content/uploads/2019/07/sau-tuoi-40.jpg" class="img-fluid">
+									<img src="images/sau-tuoi-40.jpg" class="img-fluid">
 								</div>
 								<div class="h-blog-member-content">
 									Sau tuổi 40 có những việc không thể làm và những điều không được đợi
@@ -280,6 +279,81 @@
 		<div class="container">
 			<div class="h-speak-title">
 				Đào tạo - Huấn luyện
+			</div>
+			<div class="h-speak-about">
+				Mr Coach – Trần Hồng Hải là một trong những doanh nhân – diễn giả hàng đầu tại Việt Nam với 15 năm kinh nghiệm trong lĩnh vực Đào tạo phát triển cá nhân.
+			</div>
+			<div class="h-speak-ul">
+				<ul>
+					<li>
+						<a href="">Trực tiếp huấn luyện hơn 15.000 người với các chủ đề như Khởi nghiệp, Làm giàu, Bán hàng, Nghệ thuật lãnh đạo, Kỹ năng huấn luyện và Nói trước công chúng…</a>
+					</li>
+					<li>
+						<a href="">Cố vấn chuyên môn về phương pháp đào tạo cho bộ Giáo dục và Đào tạo.</a>
+					</li>
+					<li>
+						<a href="">Cố vấn đào tạo phát triển cá nhân cho các tập đoàn (Vingroup, HD bank, Bảo hiểm bưu điện,vv...)</a>
+					</li>
+					<li>
+						<a href="">Cố vấn cấp cao về Bán hàng – Marketing cho nhiều tổ chức, doanh nghiệp vừa và nhỏ.</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="h-feel">
+		<div class="container">
+			<div class="h-feel-title">
+				Cảm nhận của những học viên
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="h-feel-member">
+						<div>
+							<img src="images/nguyenhonghai.jpg" class="rounded-circle">
+						</div>
+						<div>
+							Cảm ơn thầy Hồng Hải và cộng sự. Nhờ khóa học của thầy tôi thấy quý hơn bản thân mình, quý hơn cuộc sống này, quý hơn từng đồng tiền tôi kiếm được. Tôi hiểu được sâu sắc giá trị của việc cho và nhận, hiểu được hơn tiếng nói nhỏ trong đầu mình. Tôi cũng biết cách quản lý tiền bạc, biết cách điều tiết cảm xúc của mình tốt hơn.
+							<br><i>Trương Hoài Nam</i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="h-feel-member">
+						<div>
+							<img src="images/nguyenhonghai.jpg" class="rounded-circle">
+						</div>
+						<div>
+							Xin cảm ơn thầy Hồng Hải đã giúp mình hiểu được cách để đạt được tự do tài chính! Mình đã có 1 cái nhìn rõ ràng hơn và chắc chắn sẽ đem kiến thức được học để áp dụng và chia sẻ với những người thân xung quanh! Được gặp anh Hồng Hải cũng là 1 vinh hạnh với mình, một người đầy nhiệt tình, nhiệt huyết, tạo cảm hứng và thổi lửa cho anh em! Chân thành cám ơn!
+							<br><i>Nguyễn Hồng Hải</i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="h-feel-member">
+						<div>
+							<img src="images/nguyenthithuyvinh.png" class="rounded-circle">
+						</div>
+						<div>
+							Cảm nhận của tôi về anh Hồng Hải gói gọn trọng mấy chữ ngắn gọn thôi: RẤT THỰC TẾ, RẤT Ý NGHĨA. QUAN TRỌNG NHẤT LÀ DỄ HIỂU – ÁP DỤNG ĐƯỢC NGAY VÀO CUỘC SỐNG HÀNG NGÀY. VÀ TÔI THÍCH CÁI CHẤT “BỤI – HÀI HƯỚC – ĐỜI THƯỜNG” TRONG CÁCH CHIA SẺ CỦA THẦY. Tôi sẽ tiếp tục có mặt ở các khóa học của anh Hồng Hải.
+							<br><i>Nguyễn Thúy Vinh</i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="h-feel-member">
+						<div>
+							<img src="images/nguyenluong.jpg" class="rounded-circle">
+						</div>
+						<div>
+							Cám ơn anh Hồng Hải đã cho em những bài học tuyệt vời, em cũng đang từng bước áp dụng những thứ học được từ anh vào cuộc sống. Những khóa học thật sự bổ ích, em mong là sẽ được học tất cả những khóa học mà anh đào tạo trong thời gian tới.
+							<br><i>Nguyễn Lương</i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="h-feel-more">
+				<a href="">Xem thêm mọi người nói gì về Mr Coach</a>
 			</div>
 		</div>
 	</div>
