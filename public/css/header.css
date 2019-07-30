@@ -4,11 +4,7 @@
     src:url('font/HelveticaNeue.tff');
 }
 *{
-<<<<<<< HEAD
     font-family: 'helve' ,sans-serif;
-=======
-    font-family: 'helve' ,sans-serif ;
->>>>>>> bdca2a0fa5f7bfb05e59cc7b2da01dae0831568e
 }
 .container-fluid,.container{
 	padding-left: 0;
@@ -418,7 +414,7 @@ section.back-to-top{
 	z-index: 999;
 }
 .back-to-top-button{
-    position: absolute;
+    position: fixed;
 	background: #e8e8e8;
 	color: #000;
 	font-size: 20px;
