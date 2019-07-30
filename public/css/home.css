@@ -1,3 +1,8 @@
+@media (min-width: 1900px){
+	.container {
+	    max-width: 1700px;
+	}
+}
 .h-banner-top{
 	background-image: url('../images/34774062_1954008817944997_1351648825348980736_o.jpg');
 	background-size: cover;
@@ -229,4 +234,11 @@
 .h-speak{
 	padding: 80px 0;
 	background-color: #000;
+}
+.h-speak-title{
+	font-size: 45px;
+	padding: 10px 0 40px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
 }

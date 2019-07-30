@@ -277,7 +277,11 @@
 		</div>
 	</div>
 	<div class="h-speak">
-		
+		<div class="container">
+			<div class="h-speak-title">
+				Đào tạo - Huấn luyện
+			</div>
+		</div>
 	</div>
 </section>
 
