@@ -3,6 +3,26 @@
 	    max-width: 1700px;
 	}
 }
+/*@media (min-width: 1200px){
+	.container {
+	    max-width: 1140px !important;
+	}
+}
+@media (min-width: 992px){
+	.container {
+	    max-width: 960px !important;
+	}
+}
+@media (min-width: 768px){
+	.container {
+	    max-width: 720px !important;
+	}
+}
+@media (min-width: 576px){
+	.container {
+	    max-width: 540px !important;
+	}
+}*/
 .h-banner-top{
 	background-image: url('../images/34774062_1954008817944997_1351648825348980736_o.jpg');
 	background-size: cover;
@@ -69,17 +89,27 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 	padding: 35px 0 10px 0;
 }
-.h-banner-bottom-text ul li{
-	display: inline-block;
+.h-banner-bottom-text > div{
 	padding: 0 20px;
 	border-right: 1px solid RGBA(130, 130, 130, 1);
 }
-.h-banner-bottom-text ul li:last-child{
+.h-banner-bottom-text > div:last-child{
 	border-right: none;
 }
-.h-banner-bottom-text ul li a{
+@media (max-width: 652px) and (min-width: 491px){
+	.h-banner-bottom-text > div:nth-child(3){
+		border-right: none;
+	}
+}
+@media (max-width: 490px) and (min-width: 0px){
+	.h-banner-bottom-text > div{
+		border-right: none;
+	}
+}
+.h-banner-bottom-text a{
 	color: #fff;
 	text-decoration: none;
 }
@@ -147,10 +177,7 @@
 	background-color: #234568;
 	box-shadow: 4px 4px 15px 0px;
 	padding-bottom: 10px;
-	height: 371px;
-	display: flex;
-	justify-content: center;
-	/*align-items: center;*/
+	margin-bottom: 10px;
 }
 .h-blog-member a{
 	color: #fff;
@@ -173,7 +200,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/*padding: 10px;*/
+}
+.h-blog-member-img img{
+	max-width: 100%;
+	max-height: 100%;
 }
 .h-blog-more{
 	padding-top: 30px;
@@ -196,6 +226,11 @@
 	font-weight: bold;
 	text-align: center;
 }
+@media (max-width: 1199px) and (min-width: 0px){
+	.h-sign-in-title{
+		font-size: 30px;
+	}
+}
 .h-sign-in-form{
 	display: flex;
 	justify-content: center;
@@ -204,12 +239,24 @@
 	padding: 10px 5px;
 	border-radius: 4px;
 }
+@media (min-width: 0px) and (max-width: 767px){
+	.h-sign-in-form input{
+		width: calc(100% - 30px);
+		margin: 10px 15px;
+	}	
+}
 .h-sign-in-form input::placeholder{
 	font-size: 14px;
 }
 .h-sign-in-form button{
 	font-size: 14px;
 	padding: 12px;
+}
+@media (min-width: 0px) and (max-width: 767px){
+	.h-sign-in-form button{
+		width: calc(100% - 30px);
+		margin: 10px 15px;
+	}	
 }
 .h-about{
 	padding: 80px 0;
@@ -247,3 +294,87 @@
 	text-transform: uppercase;
 	font-weight: bold;
 }
+<<<<<<< HEAD
+=======
+.h-speak-about{
+	padding: 0 15px 0 10px;
+	color: #fff;
+}
+.h-speak-ul{
+	padding-right: 40px;
+	padding-bottom: 10px;
+}
+.h-speak-ul ul{
+	list-style: none;
+}
+.h-speak-ul ul li::before{
+  content: "\2022";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.h-speak-ul a{
+	text-decoration: none;
+	color: #f2c83d;
+}
+.h-feel{
+	padding: 80px 0;
+}
+.h-feel-title{
+	font-size: 45px;
+	font-weight: bold;
+	color: #000;
+	padding: 10px 0 40px 0;
+}
+.h-feel-member{
+	display: flex;
+	margin-bottom: 20px;
+}
+.h-feel-member img{
+	height: 100px;
+}
+.h-feel-member > div:first-child{
+	margin-right: 10px;
+}
+.h-feel-more{
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+.h-feel-more a{
+	color: #428bca;
+	text-decoration: none;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.about-wrap{
+	padding-bottom: 80px;
+}
+.a-title{
+	padding: 30px 0 50px 0;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+}
+.a-member{
+	padding: 20px 0;
+}
+.a-2-content{
+	color: #234568;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.a-2-content > div:first-child{
+	font-size: 50px;
+}
+.a-2-content > div:last-child{
+	font-size: 30px;
+}
+.a-3,
+.a-4{
+	color: #000;
+	font-size: 20px;
+}
+>>>>>>> ade536994c76ea7bc65714bcda8f3a2f98115c0e
