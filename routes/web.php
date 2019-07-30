@@ -32,3 +32,28 @@ Route::get('chitiettintuc', [
 	'as' =>'chitiettintuc',
 	'uses' => 'Controller_1@get_chitiettintuc'
 ]);
+
+
+Route::prefix('lienHe')->group(function () {
+
+    Route::get('/', function () {
+        return view('pages.lienHe');
+    })->name('lien-he');
+
+});
+
+Route::prefix('quaTang')->group(function () {
+
+    Route::get('/', function () {
+        return view('pages.quaTang');
+    })->name('qua-tang');
+
+});
+
+Route::prefix('baiViet')->group(function () {
+
+    Route::get('/', function () {
+        return view('pages.baiViet');
+    })->name('bai-viet');
+
+});
