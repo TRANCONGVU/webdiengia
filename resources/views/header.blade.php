@@ -12,7 +12,7 @@
 				<ul class="nav-ul-lv-1">
                         <li><a href="#">Trang chủ</a></li>
                         <li>
-							<a href="#">Giới thiệu</a>
+							<a href="{{ url('gioi-thieu') }}">Giới thiệu</a>
 
                         </li>
                        <li>
