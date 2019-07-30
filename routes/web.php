@@ -12,11 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.trang-chu');
 });
 
 Route::get('trang-chu', [
-	'as' =>'trang-chu',
+	'as' =>'pages.trang-chu',
 	'uses' => 'Controller_1@get_trangchu'
 ]);
 

@@ -4,7 +4,7 @@
     src:url('font/HelveticaNeue.tff');
 }
 *{
-    font-family: 'helve' ,sans-serif !important;
+    font-family: 'helve' ,sans-serif;
 }
 .container-fluid,.container{
 	padding-left: 0;
