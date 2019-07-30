@@ -1,0 +1,244 @@
+@media (min-width: 1900px){
+	.container {
+	    max-width: 1700px;
+	}
+}
+.h-banner-top{
+	background-image: url('../images/34774062_1954008817944997_1351648825348980736_o.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 550px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.h-banner-top .h-banner-top-text{
+	z-index: 100;
+}
+.h-banner-top .h-banner-top-text > div:first-child{
+	font-size: 60px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.h-banner-top .h-banner-top-text > div:last-child{
+	font-size: 45px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+.h-banner-top{
+	position: relative;
+}
+.h-banner-top-black{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: calc(100%);
+	width: calc(100%);
+	background-image: url('../images/1200px-Solid_black.svg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+}
+.h-banner-bottom{
+	background-color: #042F50;
+	/*padding: 20px 0;*/
+}
+.h-banner-bottom{
+	position: relative;
+}
+.h-banner-bottom-connect{
+	position: absolute;
+	left: 50%;
+	z-index: 900;
+	color: #fff;
+	text-transform: uppercase;
+	transform: translate(-50%,-50%);
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 400px;
+	background-color: RGBA(130, 130, 130, 1);
+}
+.h-banner-bottom-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 35px 0 10px 0;
+}
+.h-banner-bottom-text ul li{
+	display: inline-block;
+	padding: 0 20px;
+	border-right: 1px solid RGBA(130, 130, 130, 1);
+}
+.h-banner-bottom-text ul li:last-child{
+	border-right: none;
+}
+.h-banner-bottom-text ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.h-banner-bottom-text-member{
+	display: flex;
+}
+.h-banner-bottom-text-member > div:first-child{
+	font-size: 42px;
+	margin-right: 10px;
+}
+.h-banner-bottom-text-member-number{
+	font-size: 24px;
+}
+.h-category{
+	padding: 80px 0;
+}
+.h-category-title{
+	color: #000;
+	font-size: 45px;
+    padding: 10px 0 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.h-category-member{
+	padding: 10px;
+	background-color: #f9f9f9;
+	margin-bottom: 10px;
+}
+.h-category-member-img{
+	display: flex;
+	justify-content: center;
+}
+.h-category-member-img img{
+	height: 75px;
+}
+.h-category-member-title{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 20px 0 10px 0;
+}
+.h-category-member-content{
+	color: #000;
+}
+.h-category-member-more{
+	padding: 25px 0 5px 0;
+}
+.h-category-member-more a{
+	color: #252525;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.h-blog{
+	padding: 80px 0;
+}
+.h-blog-member{
+	background-color: #234568;
+	box-shadow: 4px 4px 15px 0px;
+	padding-bottom: 10px;
+	height: 371px;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+}
+.h-blog-member a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+.h-blog-title{
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 10px auto 40px auto;
+	text-transform: uppercase;
+}
+.h-blog-member-content{
+	margin: 20px 10px 0 10px;	
+	height: 81px;
+	overflow: hidden;
+}
+.h-blog-member-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*padding: 10px;*/
+}
+.h-blog-more{
+	padding-top: 30px;
+}
+.h-blog-more a{
+	font-size: 20px;
+	color: #428bca;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.h-sign-in{
+	background: linear-gradient(to bottom, #e24d38 0%,#a72f1d 100%);
+	padding: 20px 0;
+}
+.h-sign-in-title{
+	font-size: 33px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.h-sign-in-form{
+	display: flex;
+	justify-content: center;
+}
+.h-sign-in-form input{
+	padding: 10px 5px;
+	border-radius: 4px;
+}
+.h-sign-in-form input::placeholder{
+	font-size: 14px;
+}
+.h-sign-in-form button{
+	font-size: 14px;
+	padding: 12px;
+}
+.h-about{
+	padding: 80px 0;
+}
+.h-about-content > div:first-child{
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.h-about-content > div:nth-child(2){
+	font-size: 24px;
+	font-weight: bold;
+}
+.h-about-content > div:last-child{
+    color: #898989;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.h-about-content a{
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.h-speak{
+	padding: 80px 0;
+	background-color: #000;
+}
+.h-speak-title{
+	font-size: 45px;
+	padding: 10px 0 40px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
