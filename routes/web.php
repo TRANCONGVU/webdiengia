@@ -10,27 +10,31 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('e-magazine', function () {
+	return view('pages.e-magazine');
+})->name('e-magazine');
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('trang-chu', [
-	'as' =>'trang-chu',
-	'uses' => 'Controller_1@get_trangchu'
-]);
+Route::get('wakeup', function () {
+	return view('pages.wakeup');
+})->name('wakeup');
 
-Route::get('tintuc', [
-	'as' =>'tintuc',
-	'uses' => 'Controller_1@get_tintuc'
-]);
 
-Route::get('chitiettintuc', [
-	'as' =>'chitiettintuc',
-	'uses' => 'Controller_1@get_chitiettintuc'
-]);
+Route::get('chuyengiadaotao', function () {
+	return view('pages.chuyengiadaotao');
+})->name('chuyengiadaotao');
 
-Route::get('gioithieu', [
-	'as' =>'gioithieu',
-	'uses' => 'Controller_1@get_gioithieu'
-]);
+
+Route::get('banhang', function () {
+	return view('pages.banhang');
+})->name('banhang');
+
+
+Route::get('kinhdoanh', function () {
+	return view('pages.kinhdoanh');
+})->name('kinhdoanh');
+
+
+Route::get('video', function () {
+	return view('pages.video');
+})->name('video');
