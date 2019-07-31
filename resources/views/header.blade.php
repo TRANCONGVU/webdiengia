@@ -16,11 +16,11 @@
 
                         </li>
                        <li>
-							<a href="#">Blog<i class="fas fa-plus"></i></a>
+							<a href="{{ url('blog') }}">Blog<i class="fas fa-plus"></i></a>
 							<ul class="nav-ul-lv-2">
 								<li>
-									<a href="#">Phát triển cá nhân</a>
-									<a href="#">Kiến thức kinh doanh</a>
+									<a href="{{ url('bai_hoc_cuoc_song') }}">Phát triển cá nhân</a>
+									<a href="{{ url('chia_se_cuoi_tuan') }}">Kiến thức kinh doanh</a>
 								</li>
 							</ul>
                         </li>
@@ -58,12 +58,12 @@
                         <li><a href="{{ url('/') }}">Trang chủ</a></li>
                         <li><a href="{{ url('gioi-thieu') }}">Giới thiệu</a></li>
                         <li>
-							<a href="#">Blog</a>
+							<a href="{{ url('blog') }}">Blog</a>
 							<i class="fas fa-plus"></i>
 							<ul class="menu-left-ul-lv-child">
-								<li><a href="#">Lĩnh vực 1</a></li>
-								<li><a href="#">Lĩnh vực 2</a></li>
-								<li><a href="#">Lĩnh vực 3</a></li>
+								<li><a href="{{ url('bai_hoc_cuoc_song') }}">Bài học cuộc sống</a></li>
+								<li><a href="{{ url('chia_se_cuoi_tuan') }}">Chia sẻ cuối tuần</a></li>
+								<li><a href="{{ url('guong_thanh_cong') }}">Gương thành công</a></li>
 							</ul>
                         </li>
                         <li><a href="#">E-Magazine</a>
