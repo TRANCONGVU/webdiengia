@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>title</title>
+	<title>Diễn giả Trần Hồng Hải</title>
 	<base href="{{asset('')}}">
 	<link rel="stylesheet" href="">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" type="image/x-icon" href="" />
+	<link rel="shortcut icon" type="image/x-icon" href="image/logo.jpg" />
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap_4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset-browser.css">
 	<link rel="stylesheet" type="text/css" href="lib/fontawesome.5.7.2/css/all.min.css">
@@ -17,10 +17,17 @@
 	<link rel="stylesheet" type="text/css" href="lib/banner-slider/engine1/style.css" />
     <!-- End WOWSlider.com HEAD section -->
     <link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/styte.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- Customer CSS -->
+	<link rel="stylesheet" type="text/css" href="css/lienHe.css">
+	<link rel="stylesheet" type="text/css" href="css/quaTang.css">
+	<link rel="stylesheet" type="text/css" href="css/baiViet.css">
+
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
+
 
 </head>
 <body>
