@@ -27,6 +27,21 @@
 
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap_4.0.0/js/bootstrap.min.js"></script>
+  <!-- libary css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- libary font -->
+  <script src="https://kit.fontawesome.com/a3bc2a77c5.js"></script>
+
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/e-magazine.css">
+  <link rel="stylesheet" href="css/wakeup.css">
+  <link rel="stylesheet" href="css/chuyengiadaotao.css">
+  <link rel="stylesheet" href="css/banhang.css">
+  <link rel="stylesheet" href="css/kinhdoanh.css">
+  <link rel="stylesheet" href="css/video.css">
+
 
 
 </head>
