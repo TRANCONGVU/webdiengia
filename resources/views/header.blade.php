@@ -7,7 +7,10 @@
 
 			<div class="nav-horizontal-content d-flex justify-content-between">
                 <div class="logo" >
-                    <img style="width : 60px" src="image/logo.jpg" alt="">
+                    <img style="width : 60px ; height : 60px ; object-fit : contain ; border : 3px solid white ;
+                    border-radius : 10px; width : 100px;
+                    " src="images/logo.png" alt="">
+                    {{--  <span>Trần Hồng Hải</span>  --}}
                 </div>
 				<ul class="nav-ul-lv-1">
                         <li><a href="{{ url('/') }}">Trang chủ</a></li>
@@ -24,13 +27,13 @@
 								</li>
 							</ul>
                         </li>
-                        <li class="lienhe-led"><a href="#">E-magazine</a></li>
-                        <li class="lienhe-led"><a href="#">Khóa học</a>
+                        <li class="lienhe-led"><a href="{{ url('e-magazine') }}">E-magazine</a></li>
+                        <li class="lienhe-led"><a href="{{ url('chuyengiadaotao') }}">Khóa học<i class="fas fa-plus"></i></a>
                             <ul class="nav-ul-lv-2">
 								<li>
-									<a href="#">Khóa học đào tạo</a>
-                                    <a href="#">Khóa học bán hàng</a>
-                                    <a href="">Phát triển bản thân</a>
+									<a href="{{ url('chuyengiadaotao') }}">Khóa học đào tạo</a>
+                                    <a href="{{ url('banhang') }}">Khóa học bán hàng</a>
+                                    <a href="{{ url('kinhdoanh') }}">Phát triển bản thân</a>
 								</li>
 							</ul>
                         </li>
@@ -66,15 +69,16 @@
 								<li><a href="{{ url('guong_thanh_cong') }}">Gương thành công</a></li>
 							</ul>
                         </li>
-                        <li><a href="#">E-Magazine</a>
+                        <li><a href="{{ url('e-magazine') }}">E-Magazine</a>
+
+                        </li>
+                        <li><a href="{{ url('wakeup') }}">Khóa Học</a>
                             <i class="fas fa-plus"></i>
 							<ul class="menu-left-ul-lv-child">
-								<li><a href="#">Lĩnh vực 1</a></li>
-								<li><a href="#">Lĩnh vực 2</a></li>
-								<li><a href="#">Lĩnh vực 3</a></li>
-							</ul>
-                        </li>
-                        <li><a href="#">Khóa Học</a></li>
+								<li><a href="{{ url('chuyengiadaotao') }}">Đào tạo</a></li>
+								<li><a href="{{ url('banhang') }}">Bán hàng</a></li>
+								<li><a href="{{ url('kinhdoanh') }}">Kinh doanh</a></li>
+							</ul></li>
                         <li><a href="{{ route('lien-he') }}">liên hệ</a></li>
                         <li><a href="{{ route('qua-tang') }}">Quà tặng</a></li>
 

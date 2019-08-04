@@ -259,7 +259,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="h-about-youtube">
-						<iframe style="max-width: 511px; width: 100%; height: 290px;" src="https://www.youtube.com/embed/vJalPhIlOm8" frameborder="0" allowfullscreen=""></iframe>
+						<iframe style="max-width: 511px; width: 100%; height: 290px;" src="https://www.youtube.com/embed/T_QX6HMLYrs" frameborder="0" allowfullscreen=""></iframe>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -280,7 +280,7 @@
 			<div class="h-speak-title">
 				Đào tạo - Huấn luyện
 			</div>
-			<div class="h-speak-about">
+			<div class="h-speak-about text-white">
 				Mr Coach – Trần Hồng Hải là một trong những doanh nhân – diễn giả hàng đầu tại Việt Nam với 15 năm kinh nghiệm trong lĩnh vực Đào tạo phát triển cá nhân.
 			</div>
 			<div class="h-speak-ul">

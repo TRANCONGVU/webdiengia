@@ -124,7 +124,8 @@
 	font-size: 24px;
 }
 .h-category{
-	padding: 80px 0;
+    padding: 80px 0;
+    padding-bottom: 20px;
 }
 .h-category-title{
 	color: #000;
@@ -171,7 +172,7 @@
 	text-transform: uppercase;
 }
 .h-blog{
-	padding: 80px 0;
+	padding: 20px 0;
 }
 .h-blog-member{
 	background-color: #234568;
@@ -243,7 +244,7 @@
 	.h-sign-in-form input{
 		width: calc(100% - 30px);
 		margin: 10px 15px;
-	}	
+	}
 }
 .h-sign-in-form input::placeholder{
 	font-size: 14px;
@@ -256,7 +257,7 @@
 	.h-sign-in-form button{
 		width: calc(100% - 30px);
 		margin: 10px 15px;
-	}	
+	}
 }
 .h-about{
 	padding: 80px 0;

@@ -14,21 +14,24 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    padding: 20px;
-    width: 80px;
+    padding: 13px;
 }
-.lienket a:nth-child(1){
-    background: #e14e31;
+.lienket a i{
+    color: #fff;
+    font-size: 20px;
+    transition: 1s;
 }
-.lienket a:nth-child(2){
-    background: #18a4de;
+.lienket a:nth-child(1):hover{
+    background-color : #e14e31 ;
 }
-.lienket a:nth-child(3){
-    background: #2161a1;
+.lienket a:nth-child(2 ):hover{
+    background-color : #18a4de ;
 }
-.lienket a:nth-child(4){
-    background: #e82e2c;
+.lienket a:nth-child(3):hover{
+    background-color : #2161a1 ;
+}
+.lienket a:nth-child(4):hover{
+    background-color : #e82e2c ;
 }
 .footer-head h4{
     display: flex;
