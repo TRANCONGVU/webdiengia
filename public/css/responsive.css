@@ -97,6 +97,9 @@
     .hihi{
         justify-content: center !important;
     }
+    nav.nav-horizontal-active-2{
+        top: 15px !important;
+    }
 
 }
 @media only screen and (max-width: 475px) {
@@ -106,7 +109,39 @@
     .link-bot{
         padding: 10px;
         padding-left: 20px;
-    }
+	}
+	.h-banner-top .h-banner-top-text > div:first-child{
+		font-size: 31px !important;
+	}
+	.h-banner-top .h-banner-top-text > div:last-child {
+		font-size: 25px !important;
+	}
+	.h-category-title , .h-speak-title ,.h-feel-title{
+		font-size: 35px !important;
+		padding: 10px 0 !important	;
+	}
+	.h-banner-bottom-text-member > div:first-child {
+		font-size: 35px !important;
+	}
+	.h-category {
+		padding: 10px 0 !important;
+	}
+	.h-sign-in-title{
+		font-size: 24px;
+	}
+	.h-about-content > div:first-child {
+		font-size: 30px;
+	}
+	.h-about{
+		padding: 10px 0 !important;
+	}
+	.h-speak ,.h-feel{
+		padding: 10px 0 !important;
+	}
+	.h-feel-more a{
+		font-size: 12px !important;
+	}
+
 }
 @media only screen and (max-width: 332px) {
 	.nav-horizontal-search form input{

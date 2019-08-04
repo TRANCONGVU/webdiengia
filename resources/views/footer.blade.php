@@ -1,18 +1,4 @@
 	<footer class="container-fluid">
-        <div class="container-fluid footer-head">
-            <div class="container d-flex justify-content-between hihi">
-                <h4>
-                    Theo dõi Tôi & Tham gia thảo luận
-
-                </h4>
-                <div class="lienket">
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-        </div>
         <div class="container-fluid footer">
             <div class="container">
                 <div class="row">
@@ -46,9 +32,22 @@
                     </div>
                     <div class="col-md-4 col-12 link-bot">
                         <span>Tìm kiếm</span>
-                        <div class="d-flex search">
+                        <div class="d-flex search mt-3">
                             <input type="text" placeholder="Tìm kiếm">
                             <button><i class="fas fa-search"></i></button>
+                        </div>
+
+                        <div class=" d-flex flex-column">
+                            <a class="mt-3 text-white
+                            ">Kết nối với diễn giả</a>
+                            <div class="lienket d-flex">
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+
+                            </div>
+
                         </div>
 
                     </div>
@@ -63,4 +62,4 @@
 	</footer>
 
 	<section class="back-to-top"><div class="back-to-top-button"><i class="fas fa-angle-double-up"></i></div></section>
-	<!-- <script type="text/javascript" src="js/backtotop.js"></script> -->
+	<script type="text/javascript" src="js/backtotop.js"></script>
