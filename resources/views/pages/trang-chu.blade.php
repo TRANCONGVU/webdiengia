@@ -235,7 +235,7 @@
 	<div class="h-sign-in">
 		<div class="container">
 			<div class="h-sign-in-title">
-				Nhận những chia sẻ hay từ MrCoach - Trần Hồng Hải
+				Nhận những chia sẻ hay từ MrCoach - <br> Trần Hồng Hải
 			</div>
 			<div class="h-sign-in-form">
 				<form>
