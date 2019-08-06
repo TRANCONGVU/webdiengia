@@ -259,7 +259,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="h-about-youtube">
-						<iframe style="max-width: 511px; width: 100%; height: 290px;" src="https://www.youtube.com/embed/T_QX6HMLYrs" frameborder="0" allowfullscreen=""></iframe>
+						<iframe style="max-width: 100%; width: 100%; height: 400px;" src="https://www.youtube.com/embed/T_QX6HMLYrs" frameborder="0" allowfullscreen=""></iframe>
 					</div>
 				</div>
 				<div class="col-md-6">

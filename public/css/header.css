@@ -24,6 +24,7 @@ header.header-active{
 /*---------------------------------------Nav-horizontal---------------------------------------*/
 nav.nav-horizontal{
     background: #163a5c;
+    /* background: #fb820a; */
     color: #fff;
 	-webkit-transition: 0.4s all;
 	-moz-transition: 0.4s all;
