@@ -23,8 +23,8 @@ header.header-active{
 
 /*---------------------------------------Nav-horizontal---------------------------------------*/
 nav.nav-horizontal{
-    background: #163a5c;
-    /* background: #fb820a; */
+    /* background: #163a5c; */
+    background: #f35a00;
     color: #fff;
 	-webkit-transition: 0.4s all;
 	-moz-transition: 0.4s all;
@@ -70,7 +70,8 @@ nav.nav-horizontal a{
     text-transform: capitalize;
 }
 .nav-horizontal-content ul.nav-ul-lv-1>li:hover{
-    background: #0a2f50;
+    /* background: #0a2f50; */
+    background: #980f0f;
 }
 .nav-horizontal-content ul.nav-ul-lv-1>li>a>i{
 	margin-left: 5px;
@@ -115,7 +116,7 @@ nav.nav-horizontal a{
     padding-left: 0px;
 	width: 200px;
 	text-align: left;
-	background: #163a5c;
+	background: #980f0f;
 	display: none;
 
 }

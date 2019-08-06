@@ -43,8 +43,7 @@ a:hover{
 }
 .footer {
     padding: 60px 0;
-    background: #163a5c;
-    /* background: #c65100; */
+    background: #f35a00;
 }
 .link-bot span{
     font-size: 17px;
@@ -92,7 +91,7 @@ a:hover{
 }
 .footer-bot {
 
-    background: #042f50;
+    background: #f30000;
 
 }
 .copyright{
